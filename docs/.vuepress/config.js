@@ -1,5 +1,5 @@
 module.exports = {
-  title: "高新头马中文演讲俱乐部",
+  title: "高新头马中文演讲俱乐部（济南）",
   description: "高新头马中文演讲俱乐部",
   dest: "./dist",
   base: '/gaoxintmc/',
@@ -22,9 +22,9 @@ module.exports = {
         text: "会员内容",
         link: "/member/",
         items: [
-          { text: "会议记录", link: "/member/a" },
-          { text: "Passway", link: "/member/a" },
-          { text: "精彩内容", link: "/member/a" },
+          { text: "会议记录", link: "/member/record/" },
+          { text: "Passways", link: "/member/passways/" },
+          { text: "精彩内容", link: "/member/exciting/" },
         ],
       },
       {
@@ -33,14 +33,14 @@ module.exports = {
       },
     ],
     sidebar: {
-      "/guide/": [
+      "/member/record/": [
         '',
-        'page-a',
-        'page-b'
-      ],
+        '123',
+        '124'
+      ]
     },
     sidebarDepth: 2,
-    lastUpdated: "Last Updated",
+    lastUpdated: "上次更新",
     searchMaxSuggestoins: 10,
     serviceWorker: {
       updatePopup: {
