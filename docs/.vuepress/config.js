@@ -23,8 +23,7 @@ module.exports = {
         link: "/member/",
         items: [
           { text: "会议记录", link: "/member/record/" },
-          { text: "Passways", link: "/member/passways/" },
-          { text: "精彩内容", link: "/member/exciting/" },
+          { text: "精彩时刻", link: "/member/exciting/" },
         ],
       },
       {
